@@ -1,3 +1,6 @@
+// Durable Objects
+export { UserService } from './services/index.mjs'
+
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
