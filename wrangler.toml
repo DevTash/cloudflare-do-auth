@@ -8,5 +8,5 @@ zone_id = ""
 
 [durable_objects]
 bindings = [
-    { name = "UserService", class_name = "UserService" }
+    { name = "UserService", class_name = "UserService", script_name="./src/services/UserService.mjs" }
 ]
